@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'QuickSand', sans-serif;
+    font-family: 'Mulish', sans-serif;
     background-color: #FFFFFF;
   }
 
@@ -37,8 +37,8 @@ body, html {
 }
 
 .navbar{
-    background-color: #000000e0;
-    padding: 10px;
+    background-color: #000000;
+    
   }
 
 
@@ -63,15 +63,14 @@ body, html {
 
 
 .download_button{
-    background-color: #0000008e;
+    background-color: #000000;
     color: #FFFFFF;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 button[type=button]:hover{
-    background-color: #FFFFFFA1;
-    color: #000000;
+  opacity: 0.7;
 }
 
 hr.solid{
@@ -137,23 +136,28 @@ hr.solid{
   /* ------------ front bar length & colors ------------ */
   
   .compop{
-    width: 80%; 
-    background-color: #BFA182;
+    width: 90%; 
+    background-color: #7DCEA0;
   }
   
-  .bfs{
+  .bo{
     width: 70%; 
-    background-color: #82A3BF;
+    background-color: #EC7063;
   }
   
   .st{
-    width: 45%; 
-    background-color: #BCBF82;
-  }
-  
-  .mso{
     width: 50%; 
-    background-color: #9682BF;
+    background-color: #2980B9;
+  }
+
+  .tmwrk{
+    width: 60%; 
+    background-color: #9B59B6;
+  }
+
+  .mso{
+    width: 70%; 
+    background-color: #F1C40F ;
   }
 
 
